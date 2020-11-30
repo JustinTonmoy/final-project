@@ -1,0 +1,50 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; 
+ font-family: 'Montserrat', sans-serif;}
+
+
+body{
+	background:linear-gradient(rgba(0,0,50.0.5) ,rgba(0,0,50.0.5));
+	background-image: url("../images/a.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+
+
+
+.login-box{
+	max-width:800px;
+	float:none;
+	margin:170px;
+}
+
+.login-right{
+	background:rgba(211, 62, 211,0.4);
+	padding:30px;
+	margin:auto;
+}
+
+
+
+.form-group{
+
+	background-color:transparent !important;
+}
+
+
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
